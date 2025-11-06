@@ -1,0 +1,15 @@
+# 解析相关
+# docling>=0.1.0  # PDF解析（冠军方案核心）
+requests>=2.31.0  # MinerU API调用（可选替换Docling）
+# 检索相关
+sentence-transformers>=2.7.0  # 嵌入模型（text-embedding-v1适配）
+# LLM与生成相关
+dashscope>=1.14.0  # 调用qwen-turbo-latest（替换OpenAI）
+pydantic>=2.5.0  # 结构化输出定义
+# 前端相关
+streamlit>=1.32.0  # 可视化界面
+# 其他
+python-dotenv>=1.0.0  # 管理API Key
+chromadb~=1.1.1
+numpy~=2.3.3
+transformers~=4.57.0
